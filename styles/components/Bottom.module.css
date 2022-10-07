@@ -1,0 +1,173 @@
+.bottom {
+  font-family: "Sora";
+  width: 100%;
+  /* height: 400px; */
+  height: 500px;
+  background-color: #25284b;
+  margin-top: 80%;
+}
+
+.ctaheading {
+  font-weight: 700;
+  font-size: 25px;
+  color: #ffffff;
+  padding: 30px 100px 30px 150px;
+  /* padding: 100px 128px 16px 128px; */
+}
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ctabtn {
+  padding: 30px 100px 30px 90px;
+  /* padding-top: 50px; */
+}
+
+.ctainfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Sora";
+  /* width: 50%; */
+  font-weight: 300;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 0 32px 16px 32px;
+}
+
+.ctaborder {
+  border-bottom: 1px solid #323665;
+  margin: 0 30px 0 30px;
+}
+
+.copyrightcontainer {
+  font-family: "Sora";
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: space-between;
+  /* padding: 0 128px 65px 128px; */
+}
+
+.copyrightinfo {
+  width: 428px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  padding-top: 16px;
+}
+.copyrightsocials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.copyrightsocials img {
+  padding-right: 8px;
+}
+
+.instagram,
+.linkedin,
+.facebook,
+.twitter {
+  display: flex;
+  align-self: center;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 600px) {
+  .bottom {
+    font-family: "Sora";
+    width: 100%;
+    /* height: 400px; */
+    height: 500px;
+    background-color: #25284b;
+    margin: 0;
+  }
+
+  .ctaheading {
+    font-weight: 700;
+    font-size: 35px;
+    color: #ffffff;
+    padding: 100px 128px 16px 128px;
+  }
+
+  .cta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 341px;
+    padding: 32px 128px 60px 128px;
+    /* border-bottom: 1px solid #c3c5dc; */
+  }
+
+  .ctainfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sora";
+    width: 50%;
+    font-weight: 300;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 0;
+  }
+
+  .ctabtn {
+    padding: 50px 0 0 0;
+  }
+
+  .ctaborder {
+    border-bottom: 1px solid #323665;
+    margin: 50px 128px 32px 128px;
+  }
+
+  .copyrightcontainer {
+    font-family: "Sora";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 128px 65px 128px;
+  }
+
+  .copyrightinfo {
+    width: 428px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 0;
+  }
+
+  .copyrightsocials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .copyrightsocials img {
+    padding-right: 12px;
+  }
+
+  .instagram,
+  .linkedin,
+  .facebook,
+  .twitter {
+    display: flex;
+    align-self: center;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+  }
+}
