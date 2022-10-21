@@ -16,12 +16,12 @@ function Bottom() {
         </div>
 
         <p className={styles.ctainfo}>
-          Reach out to find out how we can be of help to you. Hit the button
-          below to send us an email at hello@megastack.tech...
+          {` Reach out to find out how we can be of help to you. Hit the button
+          below to send us an email at hello@megastack.tech...`}
           <br />
           <br />
-          You can alsocheck out some of our previous project we've helped our
-          partners ship to their users. Click here to see our works.
+          {`You can alsocheck out some of our previous project we've helped our
+          partners ship to their users. Click here to see our works.`}
         </p>
       </div>
       <p className={styles.ctaborder}></p>
